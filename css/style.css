@@ -1,0 +1,57 @@
+/* google font */
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*shared all style */
+.primay-color{
+  color: #FD6E0A;
+}
+.dark-2{
+  color: #474747;
+}
+/* Navbar  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+
+}
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+  cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+   
+}
+nav ul li{
+  list-style: none;
+  margin:20px ;
+}
+nav li a {
+   text-decoration: none;
+   font-size: 20px;
+
+}
+
+
+.btn{
+  color: white;
+  background-color: #FD6E0A;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 18px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+}
